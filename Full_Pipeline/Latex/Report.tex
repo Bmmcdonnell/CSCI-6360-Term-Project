@@ -10,7 +10,7 @@
 \usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=blue]{hyperref}
 \usepackage{cleveref}
 
-\title{Project 1}
+\title{Term Project}
 \author{Masum Billah, Madhu Chencharapu, Gabriel Loos, Brendan McDonnell, Roshan Ravichandran}
 \date{February 2026}
 
@@ -24,7 +24,20 @@ In this project, we will explore two different datasets using multiple linear re
 
 \begin{itemize}
 	\item \textbf{Insurance Charges:} This dataset contains information about different primary beneficiaries of health insurance. The goal is to predict the primary beneficiaries insurance charges given their other characteristics. The dataset can be found at \url{https://www.kaggle.com/datasets/mirichoi0218/insurance}.
+	\item \textbf{Insurance Annual Premium:} This dataset contains information about different primary beneficiaries of health insurance. The goal is to predict the primary beneficiaries annual premium given their other characteristics. The dataset can be found at \url{https://www.kaggle.com/datasets/mohankrishnathalla/medical-insurance-cost-prediction}.
 \end{itemize}
+
+\section{Hyperparameter Tuning}
+
+To optimize the regularization hyperparameter for Ridge and Lasso regression, we employed a three-stage grid search, using 5-fold cross-validation to maximize the mean $R^2$ score.
+\begin{itemize}
+	\item Stage 1: A broad logarithmic search to find the general neighborhood of the best hyperparameter.
+	\item Stage 2: An intermediate refinement around the Stage 1 winner.
+	\item Stage 3: A high-resolution linear search to finalize the value based on the Stage 2 results.
+\end{itemize}
+For the second-order polynomial regression model, we used ridge regression to prevent overfitting. To optimize the power transformation lambda for Box-Cox, we employed a grid search of standard power transformations to determine which lambda yields the highest mean $R^2$ via 5-fold cross-validation.
+
+We optimized the neural network's activation functions, hidden layer sizes, and learning rate using a sequential grid search, maximizing the mean $R^2$ via 5-fold cross-validation. First, activation functions were tuned layer-by-layer, from the initial hidden layer through to the output. We then determined the hidden layer sizes; for two-layer architectures, we constrained the second layer to be less than or equal to the first. Finally, the learning rate was tuned.
 
 \section{Insurance Charges}\label{Insurance Charges}
 
@@ -1534,5 +1547,82 @@ bic & 4713 & 4707 & 4707 & 4710 & 4887 & 4710 & 4877 & 4686 & 4570 & 4570 \\ \hl
 \end{tabular}
 }
 \end{table}
+
+\section{Insurance Annual Premium}
+
+\subsection{Exploratory Data Analysis}
+
+The Insurance Annual Premium dataset contains $100,000$ observations each having $54$ variables. Some of the variables are:
+\begin{itemize}
+	\item age: The age of the primary beneficiary.
+	\item sex: The insurance contractor sex: female or male.
+	\item bmi: The body mass index of the primary beneficiary.
+	\item dependents: The number of dependents covered by health insurance
+	\item smoker: If the primary beneficiary smokes.
+	\item region: The beneficiary's residential area in the US.
+	\item annual\_premium: (The target variable) Individual medical costs billed by health insurance.
+\end{itemize}
+
+The Insurance Annual Premium dataset contains 30,083 missing values, so we remove these rows. For modeling purposes, we converted all the categorical variables into dummy variables.
+
+Univariate distributions are visualized in \Cref{fig:Insurance Annual Premium Histograms} (histograms/count-plots) and \Cref{fig:Insurance Annual Premium Box Plots} (box plots for continuous variables).
+
+%The visualizations reveal that sex and region are approximately uniformly distributed. While age also follows a generally uniform pattern, there is a notable spike in frequency for individuals aged $18$ and $19$. Additionally, bmi closely follows a normal distribution, whereas children and charges exhibit distributions characteristic of a geometric decay. Notably, both bmi and charges contain several outliers, with the latter displaying a significantly higher concentration. Finally, non-smokers represent the most prevalent group in the dataset.
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{justification=centering}
+    \includegraphics[width=0.75\textwidth]{../Insurance_Annual_Premium/histograms.png} 
+    \caption{Insurance Annual Premium Histograms and Count-Plots}
+    \label{fig:Insurance Annual Premium Histograms}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{justification=centering}
+    \includegraphics[width=0.75\textwidth]{../Insurance_Annual_Premium/boxplots.png} 
+    \caption{Insurance Annual Premium Box Plots}
+    \label{fig:Insurance Annual Premium Box Plots}
+\end{figure}
+
+\Cref{fig:Insurance Annual Premium Scatterplots} displays the bivariate relationships between some of the predictors and the target variable, Annual Premium, while the corresponding correlation matrix is provided in \Cref{fig:Insurance Annual Premium Correlation Heat Map}.
+
+%Analysis of these figures indicates that the smoker variable has the strongest correlation with charges. In the scatterplot for age, the data points appear to bifurcate into three distinct clusters, each forming its own linear trend. This suggests that latent variables or interaction effects (currently unobserved) might differentiate these groups, as each subgroup shows a strong individual correlation with charges. Furthermore, the figures reveal that the remaining predictor variables exhibit no discernible relationship with charges, appearing as randomly distributed clusters with no clear linear or non-linear patterns. Finally, there is no evidence of significant multi-collinearity or inter-correlation between any of the predictor variables.
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{justification=centering}
+    \includegraphics[width=0.75\textwidth]{../Insurance_Annual_Premium/scatterplots.png} 
+    \caption{Insurance Annual Premium Scatterplots}
+    \label{fig:Insurance Annual Premium Scatterplots}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{justification=centering}
+    \includegraphics[width=0.5\textwidth]{../Insurance_Annual_Premium/correlation_heatmap.png} 
+    \caption{Insurance Annual Premium Correlation Heat Map}
+    \label{fig:Insurance Annual Premium Correlation Heat Map}
+\end{figure}
+
+\Cref{fig:Insurance Annual Premium Hue Plots} illustrates the bivariate relationships among some of the predictor variables, with data points colored by the target variable, Annual Premium.
+
+%Given the high proportion of categorical predictors, many of these visualizations result in overlapping clusters, making it difficult to definitively determine if most interaction terms would improve model performance. A primary exception is the interaction between bmi and smoker, where it is very clear that the interaction is beneficial. In contrast, for variables such as children and sex, the influence on the target variable remains obscured by the data's density, leaving their potential for interaction-based improvement unclear.
+
+\begin{figure}[H]
+    \centering
+    \captionsetup{justification=centering}
+    \includegraphics[width=0.9\textwidth]{../Insurance_Annual_Premium/Hue_Plots.png} 
+    \caption{Insurance Annual Premium Hue Plots}
+    \label{fig:Insurance Annual Premium Hue Plots}
+\end{figure}
+
+\subsection{Random Forest}
+
+
+
+\subsection{Other Modeling Techniques}
+
+Alternative approaches (including Ridge and Lasso regression, second-order polynomials, square root transformations, and neural networks) were evaluated but yielded poor predictive performance (CV $R^2 < 0.1$). This underperformance likely stems from the weak correlation between the predictors and the target variable, Annual Premium. Furthermore, the target distribution is heavily skewed, with most values concentrated below $\$2,000$. Unlike the other regression models tested, Random Forest effectively managed this skewed distribution to provide more reliable results.
 
 \end{document}
