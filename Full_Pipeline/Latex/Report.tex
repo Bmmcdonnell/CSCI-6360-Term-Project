@@ -1468,6 +1468,47 @@ bic & 5 & 4523 & 4662 & 4570 & 51.24 \\ \hline
      \label{fig:Insurance Charges 4 Layer Neural Network Stepwise Selection Quality of Fit Metrics}
 \end{figure}
 
+\subsection{Random Forest}
+
+\begin{figure}[H]
+     \centering
+     \includegraphics[width=0.5\textwidth]{../Insurance_Charges/corrmatrix.png}
+     \caption{Insurance Charges Correlation Matrix}
+     \label{fig:Insurance Charges Correlation Matrix}
+\end{figure}
+
+\begin{figure}[H]
+     \centering
+     \includegraphics[width=0.5\textwidth]{../Insurance_Charges/rfregressionoos.png}
+     \caption{Insurance Charges Random Forrest Out-of-Sample Plot\\ black: actual y-values, red: predicted y-values}
+     \label{fig:Insurance Charges Random Forrest Out-of-Sample Plot}
+\end{figure}
+
+Random Forest Regression metrics: MAE: 2956.7923371477714 RMSE: 5056.020242853598 R2: 0.8225083593592852
+
+Ytest values: {rSq: 0.8225083593592852,  sst: 154251421569.71732,  sse: 27378337885.571674,  mse: 25563340.696145356,  rmse: 5056.020242853598,  mae: 2956.7923371477714,  m: 1071}
+
+Hyper Parameter tuning info:
+
+Best params:
+
+{n estimators: 700, min samples split: 2, min samples leaf: 1, max features: 0.5, max depth: 10, bootstrap: False}
+
+Tuned metrics:
+
+Tuned RF MAE: 3087.9428686341853
+
+Tuned RF RMSE: 5141.698517661322
+
+Tuned RF R2: 0.8164419175052696
+
+\begin{figure}[H]
+     \centering
+     \includegraphics[width=0.5\textwidth]{../Insurance_Charges/featureimportance.png}
+     \caption{Insurance Charges Feature Importance}
+     \label{fig:Insurance Charges Feature Importance}
+\end{figure}
+
 \subsection{Model Comparison}
 
 \begin{table}[H]

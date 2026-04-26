@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.10)  25 APR 2026 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.10)  26 APR 2026 18:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -452,26 +452,26 @@ Package hyperref Info: Link coloring ON on input line 17.
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<../Insurance_Charges/histograms.png, id=178, 859.65166pt x 569.84895pt>
+<../Insurance_Charges/histograms.png, id=182, 859.65166pt x 569.84895pt>
 File: ../Insurance_Charges/histograms.png Graphic file (type png)
 <use ../Insurance_Charges/histograms.png>
 Package pdftex.def Info: ../Insurance_Charges/histograms.png  used on input lin
 e 64.
 (pdftex.def)             Requested size: 418.04213pt x 277.1155pt.
-<../Insurance_Charges/boxplots.png, id=180, 1293.27165pt x 859.2903pt>
+<../Insurance_Charges/boxplots.png, id=184, 1293.27165pt x 859.2903pt>
 File: ../Insurance_Charges/boxplots.png Graphic file (type png)
 <use ../Insurance_Charges/boxplots.png>
 Package pdftex.def Info: ../Insurance_Charges/boxplots.png  used on input line 
 72.
 (pdftex.def)             Requested size: 418.04213pt x 277.7582pt.
  [2 <../Insurance_Charges/histograms.png>]
-<../Insurance_Charges/scatterplots.png, id=190, 1148.73164pt x 569.30693pt>
+<../Insurance_Charges/scatterplots.png, id=194, 1148.73164pt x 569.30693pt>
 File: ../Insurance_Charges/scatterplots.png Graphic file (type png)
 <use ../Insurance_Charges/scatterplots.png>
 Package pdftex.def Info: ../Insurance_Charges/scatterplots.png  used on input l
 ine 82.
 (pdftex.def)             Requested size: 418.04213pt x 207.17418pt.
-<../Insurance_Charges/correlation_heatmap.png, id=191, 678.6153pt x 570.933pt>
+<../Insurance_Charges/correlation_heatmap.png, id=195, 678.6153pt x 570.933pt>
 File: ../Insurance_Charges/correlation_heatmap.png Graphic file (type png)
 <use ../Insurance_Charges/correlation_heatmap.png>
 Package pdftex.def Info: ../Insurance_Charges/correlation_heatmap.png  used on 
@@ -479,20 +479,20 @@ input line 90.
 (pdftex.def)             Requested size: 278.69475pt x 234.47606pt.
  [3 <../Insurance_Charges/boxplots.png> <../Insurance_Charges/scatterplots.png>
 ]
-<../Insurance_Charges/Hue_Plots.png, id=202, 1202.39212pt x 1437.4503pt>
+<../Insurance_Charges/Hue_Plots.png, id=206, 1202.39212pt x 1437.4503pt>
 File: ../Insurance_Charges/Hue_Plots.png Graphic file (type png)
 <use ../Insurance_Charges/Hue_Plots.png>
 Package pdftex.def Info: ../Insurance_Charges/Hue_Plots.png  used on input line
  100.
 (pdftex.def)             Requested size: 501.64716pt x 599.71115pt.
  [4 <../Insurance_Charges/correlation_heatmap.png>]
-<../Insurance_Charges_Plots/Reg_In_Sample.png, id=209, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Reg_In_Sample.png, id=213, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Reg_In_Sample.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Reg_In_Sample.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Reg_In_Sample.png  used on 
 input line 121.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Reg_80_20.png, id=210, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Reg_80_20.png, id=214, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Reg_80_20.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Reg_80_20.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Reg_80_20.png  used on inpu
@@ -500,13 +500,13 @@ t line 126.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
  [5 <../Insurance_Charges/Hue_Plots.png>] [6 <../Insurance_Charges_Plots/Reg_In
 _Sample.png> <../Insurance_Charges_Plots/Reg_80_20.png>]
-<../Insurance_Charges_Plots/Reg_rSq_Forward.png, id=224, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Reg_rSq_Forward.png, id=228, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Reg_rSq_Forward.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Reg_rSq_Forward.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Reg_rSq_Forward.png  used o
 n input line 190.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Reg_AIC_BIC_Forward.png, id=225, 722.7pt x 433.62pt
+<../Insurance_Charges_Plots/Reg_AIC_BIC_Forward.png, id=229, 722.7pt x 433.62pt
 >
 File: ../Insurance_Charges_Plots/Reg_AIC_BIC_Forward.png Graphic file (type png
 )
@@ -514,13 +514,13 @@ File: ../Insurance_Charges_Plots/Reg_AIC_BIC_Forward.png Graphic file (type png
 Package pdftex.def Info: ../Insurance_Charges_Plots/Reg_AIC_BIC_Forward.png  us
 ed on input line 195.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Reg_rSq_Backward.png, id=226, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Reg_rSq_Backward.png, id=230, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Reg_rSq_Backward.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Reg_rSq_Backward.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Reg_rSq_Backward.png  used 
 on input line 209.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Reg_AIC_BIC_Backward.png, id=227, 722.7pt x 433.62p
+<../Insurance_Charges_Plots/Reg_AIC_BIC_Backward.png, id=231, 722.7pt x 433.62p
 t>
 File: ../Insurance_Charges_Plots/Reg_AIC_BIC_Backward.png Graphic file (type pn
 g)
@@ -530,13 +530,13 @@ sed on input line 214.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
  [7 <../Insurance_Charges_Plots/Reg_rSq_Forward.png> <../Insurance_Charges_Plot
 s/Reg_AIC_BIC_Forward.png>]
-<../Insurance_Charges_Plots/Reg_rSq_Stepwise.png, id=237, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Reg_rSq_Stepwise.png, id=241, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Reg_rSq_Stepwise.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Reg_rSq_Stepwise.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Reg_rSq_Stepwise.png  used 
 on input line 228.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Reg_AIC_BIC_Stepwise.png, id=238, 722.7pt x 433.62p
+<../Insurance_Charges_Plots/Reg_AIC_BIC_Stepwise.png, id=242, 722.7pt x 433.62p
 t>
 File: ../Insurance_Charges_Plots/Reg_AIC_BIC_Stepwise.png Graphic file (type pn
 g)
@@ -544,13 +544,13 @@ g)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Reg_AIC_BIC_Stepwise.png  u
 sed on input line 233.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Ridge_In_Sample.png, id=239, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Ridge_In_Sample.png, id=243, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Ridge_In_Sample.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Ridge_In_Sample.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Ridge_In_Sample.png  used o
 n input line 258.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Ridge_80_20.png, id=240, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Ridge_80_20.png, id=244, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Ridge_80_20.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Ridge_80_20.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Ridge_80_20.png  used on in
@@ -560,13 +560,13 @@ put line 263.
 ts/Reg_AIC_BIC_Backward.png> <../Insurance_Charges_Plots/Reg_rSq_Stepwise.png> 
 <../Insurance_Charges_Plots/Reg_AIC_BIC_Stepwise.png>] [9 <../Insurance_Charges
 _Plots/Ridge_In_Sample.png> <../Insurance_Charges_Plots/Ridge_80_20.png>]
-<../Insurance_Charges_Plots/Ridge_rSq_Forward.png, id=259, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Ridge_rSq_Forward.png, id=263, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Ridge_rSq_Forward.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Ridge_rSq_Forward.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Ridge_rSq_Forward.png  used
  on input line 327.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Ridge_AIC_BIC_Forward.png, id=260, 722.7pt x 433.62
+<../Insurance_Charges_Plots/Ridge_AIC_BIC_Forward.png, id=264, 722.7pt x 433.62
 pt>
 File: ../Insurance_Charges_Plots/Ridge_AIC_BIC_Forward.png Graphic file (type p
 ng)
@@ -574,7 +574,7 @@ ng)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Ridge_AIC_BIC_Forward.png  
 used on input line 332.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Ridge_rSq_Backward.png, id=261, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Ridge_rSq_Backward.png, id=265, 722.7pt x 433.62pt>
 
 File: ../Insurance_Charges_Plots/Ridge_rSq_Backward.png Graphic file (type png)
 
@@ -582,7 +582,7 @@ File: ../Insurance_Charges_Plots/Ridge_rSq_Backward.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Ridge_rSq_Backward.png  use
 d on input line 346.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Ridge_AIC_BIC_Backward.png, id=262, 722.7pt x 433.6
+<../Insurance_Charges_Plots/Ridge_AIC_BIC_Backward.png, id=266, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/Ridge_AIC_BIC_Backward.png Graphic file (type 
 png)
@@ -592,7 +592,7 @@ Package pdftex.def Info: ../Insurance_Charges_Plots/Ridge_AIC_BIC_Backward.png
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
  [10 <../Insurance_Charges_Plots/Ridge_rSq_Forward.png> <../Insurance_Charges_P
 lots/Ridge_AIC_BIC_Forward.png>]
-<../Insurance_Charges_Plots/Ridge_rSq_Stepwise.png, id=271, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Ridge_rSq_Stepwise.png, id=275, 722.7pt x 433.62pt>
 
 File: ../Insurance_Charges_Plots/Ridge_rSq_Stepwise.png Graphic file (type png)
 
@@ -600,7 +600,7 @@ File: ../Insurance_Charges_Plots/Ridge_rSq_Stepwise.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Ridge_rSq_Stepwise.png  use
 d on input line 365.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Ridge_AIC_BIC_Stepwise.png, id=272, 722.7pt x 433.6
+<../Insurance_Charges_Plots/Ridge_AIC_BIC_Stepwise.png, id=276, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/Ridge_AIC_BIC_Stepwise.png Graphic file (type 
 png)
@@ -608,13 +608,13 @@ png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Ridge_AIC_BIC_Stepwise.png 
  used on input line 370.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Lasso_In_Sample.png, id=273, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Lasso_In_Sample.png, id=277, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Lasso_In_Sample.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Lasso_In_Sample.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Lasso_In_Sample.png  used o
 n input line 397.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Lasso_80_20.png, id=274, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Lasso_80_20.png, id=278, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Lasso_80_20.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Lasso_80_20.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Lasso_80_20.png  used on in
@@ -625,13 +625,13 @@ Plots/Ridge_AIC_BIC_Backward.png> <../Insurance_Charges_Plots/Ridge_rSq_Stepwis
 e.png> <../Insurance_Charges_Plots/Ridge_AIC_BIC_Stepwise.png>] [12 <../Insuran
 ce_Charges_Plots/Lasso_In_Sample.png> <../Insurance_Charges_Plots/Lasso_80_20.p
 ng>]
-<../Insurance_Charges_Plots/Lasso_rSq_Forward.png, id=293, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Lasso_rSq_Forward.png, id=297, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Lasso_rSq_Forward.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Lasso_rSq_Forward.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Lasso_rSq_Forward.png  used
  on input line 466.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Lasso_AIC_BIC_Forward.png, id=294, 722.7pt x 433.62
+<../Insurance_Charges_Plots/Lasso_AIC_BIC_Forward.png, id=298, 722.7pt x 433.62
 pt>
 File: ../Insurance_Charges_Plots/Lasso_AIC_BIC_Forward.png Graphic file (type p
 ng)
@@ -639,7 +639,7 @@ ng)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Lasso_AIC_BIC_Forward.png  
 used on input line 471.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Lasso_rSq_Backward.png, id=295, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Lasso_rSq_Backward.png, id=299, 722.7pt x 433.62pt>
 
 File: ../Insurance_Charges_Plots/Lasso_rSq_Backward.png Graphic file (type png)
 
@@ -647,7 +647,7 @@ File: ../Insurance_Charges_Plots/Lasso_rSq_Backward.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Lasso_rSq_Backward.png  use
 d on input line 485.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Lasso_AIC_BIC_Backward.png, id=296, 722.7pt x 433.6
+<../Insurance_Charges_Plots/Lasso_AIC_BIC_Backward.png, id=300, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/Lasso_AIC_BIC_Backward.png Graphic file (type 
 png)
@@ -658,7 +658,7 @@ Package pdftex.def Info: ../Insurance_Charges_Plots/Lasso_AIC_BIC_Backward.png
 
 [13 <../Insurance_Charges_Plots/Lasso_rSq_Forward.png> <../Insurance_Charges_Pl
 ots/Lasso_AIC_BIC_Forward.png>]
-<../Insurance_Charges_Plots/Lasso_rSq_Stepwise.png, id=306, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Lasso_rSq_Stepwise.png, id=310, 722.7pt x 433.62pt>
 
 File: ../Insurance_Charges_Plots/Lasso_rSq_Stepwise.png Graphic file (type png)
 
@@ -666,7 +666,7 @@ File: ../Insurance_Charges_Plots/Lasso_rSq_Stepwise.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Lasso_rSq_Stepwise.png  use
 d on input line 504.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Lasso_AIC_BIC_Stepwise.png, id=307, 722.7pt x 433.6
+<../Insurance_Charges_Plots/Lasso_AIC_BIC_Stepwise.png, id=311, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/Lasso_AIC_BIC_Stepwise.png Graphic file (type 
 png)
@@ -674,13 +674,13 @@ png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Lasso_AIC_BIC_Stepwise.png 
  used on input line 509.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Sqrt_In_Sample.png, id=308, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Sqrt_In_Sample.png, id=312, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Sqrt_In_Sample.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Sqrt_In_Sample.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Sqrt_In_Sample.png  used on
  input line 532.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Sqrt_80_20.png, id=309, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Sqrt_80_20.png, id=313, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Sqrt_80_20.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Sqrt_80_20.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Sqrt_80_20.png  used on inp
@@ -691,13 +691,13 @@ Plots/Lasso_AIC_BIC_Backward.png> <../Insurance_Charges_Plots/Lasso_rSq_Stepwis
 e.png> <../Insurance_Charges_Plots/Lasso_AIC_BIC_Stepwise.png>] [15 <../Insuran
 ce_Charges_Plots/Sqrt_In_Sample.png> <../Insurance_Charges_Plots/Sqrt_80_20.png
 >]
-<../Insurance_Charges_Plots/Sqrt_rSq_Forward.png, id=328, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Sqrt_rSq_Forward.png, id=332, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Sqrt_rSq_Forward.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Sqrt_rSq_Forward.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Sqrt_rSq_Forward.png  used 
 on input line 601.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Sqrt_AIC_BIC_Forward.png, id=329, 722.7pt x 433.62p
+<../Insurance_Charges_Plots/Sqrt_AIC_BIC_Forward.png, id=333, 722.7pt x 433.62p
 t>
 File: ../Insurance_Charges_Plots/Sqrt_AIC_BIC_Forward.png Graphic file (type pn
 g)
@@ -705,13 +705,13 @@ g)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Sqrt_AIC_BIC_Forward.png  u
 sed on input line 606.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Sqrt_rSq_Backward.png, id=330, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Sqrt_rSq_Backward.png, id=334, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Sqrt_rSq_Backward.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Sqrt_rSq_Backward.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Sqrt_rSq_Backward.png  used
  on input line 620.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Sqrt_AIC_BIC_Backward.png, id=331, 722.7pt x 433.62
+<../Insurance_Charges_Plots/Sqrt_AIC_BIC_Backward.png, id=335, 722.7pt x 433.62
 pt>
 File: ../Insurance_Charges_Plots/Sqrt_AIC_BIC_Backward.png Graphic file (type p
 ng)
@@ -721,13 +721,13 @@ used on input line 625.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
  [16 <../Insurance_Charges_Plots/Sqrt_rSq_Forward.png> <../Insurance_Charges_Pl
 ots/Sqrt_AIC_BIC_Forward.png>]
-<../Insurance_Charges_Plots/Sqrt_rSq_Stepwise.png, id=340, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Sqrt_rSq_Stepwise.png, id=344, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Sqrt_rSq_Stepwise.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Sqrt_rSq_Stepwise.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Sqrt_rSq_Stepwise.png  used
  on input line 639.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Sqrt_AIC_BIC_Stepwise.png, id=341, 722.7pt x 433.62
+<../Insurance_Charges_Plots/Sqrt_AIC_BIC_Stepwise.png, id=345, 722.7pt x 433.62
 pt>
 File: ../Insurance_Charges_Plots/Sqrt_AIC_BIC_Stepwise.png Graphic file (type p
 ng)
@@ -735,13 +735,13 @@ ng)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Sqrt_AIC_BIC_Stepwise.png  
 used on input line 644.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Log1p_In_Sample.png, id=342, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Log1p_In_Sample.png, id=346, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Log1p_In_Sample.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Log1p_In_Sample.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Log1p_In_Sample.png  used o
 n input line 667.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Log1p_80_20.png, id=343, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Log1p_80_20.png, id=347, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Log1p_80_20.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Log1p_80_20.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Log1p_80_20.png  used on in
@@ -751,13 +751,13 @@ put line 672.
 lots/Sqrt_AIC_BIC_Backward.png> <../Insurance_Charges_Plots/Sqrt_rSq_Stepwise.p
 ng> <../Insurance_Charges_Plots/Sqrt_AIC_BIC_Stepwise.png>] [18 <../Insurance_C
 harges_Plots/Log1p_In_Sample.png> <../Insurance_Charges_Plots/Log1p_80_20.png>]
-<../Insurance_Charges_Plots/Log1p_rSq_Forward.png, id=362, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Log1p_rSq_Forward.png, id=366, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Log1p_rSq_Forward.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Log1p_rSq_Forward.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Log1p_rSq_Forward.png  used
  on input line 736.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Log1p_AIC_BIC_Forward.png, id=363, 722.7pt x 433.62
+<../Insurance_Charges_Plots/Log1p_AIC_BIC_Forward.png, id=367, 722.7pt x 433.62
 pt>
 File: ../Insurance_Charges_Plots/Log1p_AIC_BIC_Forward.png Graphic file (type p
 ng)
@@ -765,7 +765,7 @@ ng)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Log1p_AIC_BIC_Forward.png  
 used on input line 741.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Log1p_rSq_Backward.png, id=364, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Log1p_rSq_Backward.png, id=368, 722.7pt x 433.62pt>
 
 File: ../Insurance_Charges_Plots/Log1p_rSq_Backward.png Graphic file (type png)
 
@@ -773,7 +773,7 @@ File: ../Insurance_Charges_Plots/Log1p_rSq_Backward.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Log1p_rSq_Backward.png  use
 d on input line 755.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Log1p_AIC_BIC_Backward.png, id=365, 722.7pt x 433.6
+<../Insurance_Charges_Plots/Log1p_AIC_BIC_Backward.png, id=369, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/Log1p_AIC_BIC_Backward.png Graphic file (type 
 png)
@@ -783,7 +783,7 @@ Package pdftex.def Info: ../Insurance_Charges_Plots/Log1p_AIC_BIC_Backward.png
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
  [19 <../Insurance_Charges_Plots/Log1p_rSq_Forward.png> <../Insurance_Charges_P
 lots/Log1p_AIC_BIC_Forward.png>]
-<../Insurance_Charges_Plots/Log1p_rSq_Stepwise.png, id=375, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Log1p_rSq_Stepwise.png, id=379, 722.7pt x 433.62pt>
 
 File: ../Insurance_Charges_Plots/Log1p_rSq_Stepwise.png Graphic file (type png)
 
@@ -791,7 +791,7 @@ File: ../Insurance_Charges_Plots/Log1p_rSq_Stepwise.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Log1p_rSq_Stepwise.png  use
 d on input line 774.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Log1p_AIC_BIC_Stepwise.png, id=376, 722.7pt x 433.6
+<../Insurance_Charges_Plots/Log1p_AIC_BIC_Stepwise.png, id=380, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/Log1p_AIC_BIC_Stepwise.png Graphic file (type 
 png)
@@ -799,13 +799,13 @@ png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Log1p_AIC_BIC_Stepwise.png 
  used on input line 779.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/BoxCox_In_Sample.png, id=377, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/BoxCox_In_Sample.png, id=381, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/BoxCox_In_Sample.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/BoxCox_In_Sample.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/BoxCox_In_Sample.png  used 
 on input line 804.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/BoxCox_80_20.png, id=378, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/BoxCox_80_20.png, id=382, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/BoxCox_80_20.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/BoxCox_80_20.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/BoxCox_80_20.png  used on i
@@ -816,7 +816,7 @@ Plots/Log1p_AIC_BIC_Backward.png> <../Insurance_Charges_Plots/Log1p_rSq_Stepwis
 e.png> <../Insurance_Charges_Plots/Log1p_AIC_BIC_Stepwise.png>] [21 <../Insuran
 ce_Charges_Plots/BoxCox_In_Sample.png> <../Insurance_Charges_Plots/BoxCox_80_20
 .png>]
-<../Insurance_Charges_Plots/BoxCox_rSq_Forward.png, id=398, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/BoxCox_rSq_Forward.png, id=402, 722.7pt x 433.62pt>
 
 File: ../Insurance_Charges_Plots/BoxCox_rSq_Forward.png Graphic file (type png)
 
@@ -824,7 +824,7 @@ File: ../Insurance_Charges_Plots/BoxCox_rSq_Forward.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/BoxCox_rSq_Forward.png  use
 d on input line 873.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/BoxCox_AIC_BIC_Forward.png, id=399, 722.7pt x 433.6
+<../Insurance_Charges_Plots/BoxCox_AIC_BIC_Forward.png, id=403, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/BoxCox_AIC_BIC_Forward.png Graphic file (type 
 png)
@@ -832,7 +832,7 @@ png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/BoxCox_AIC_BIC_Forward.png 
  used on input line 878.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/BoxCox_rSq_Backward.png, id=400, 722.7pt x 433.62pt
+<../Insurance_Charges_Plots/BoxCox_rSq_Backward.png, id=404, 722.7pt x 433.62pt
 >
 File: ../Insurance_Charges_Plots/BoxCox_rSq_Backward.png Graphic file (type png
 )
@@ -840,7 +840,7 @@ File: ../Insurance_Charges_Plots/BoxCox_rSq_Backward.png Graphic file (type png
 Package pdftex.def Info: ../Insurance_Charges_Plots/BoxCox_rSq_Backward.png  us
 ed on input line 892.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/BoxCox_AIC_BIC_Backward.png, id=401, 722.7pt x 433.
+<../Insurance_Charges_Plots/BoxCox_AIC_BIC_Backward.png, id=405, 722.7pt x 433.
 62pt>
 File: ../Insurance_Charges_Plots/BoxCox_AIC_BIC_Backward.png Graphic file (type
  png)
@@ -850,7 +850,7 @@ Package pdftex.def Info: ../Insurance_Charges_Plots/BoxCox_AIC_BIC_Backward.png
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
  [22 <../Insurance_Charges_Plots/BoxCox_rSq_Forward.png> <../Insurance_Charges_
 Plots/BoxCox_AIC_BIC_Forward.png>]
-<../Insurance_Charges_Plots/BoxCox_rSq_Stepwise.png, id=410, 722.7pt x 433.62pt
+<../Insurance_Charges_Plots/BoxCox_rSq_Stepwise.png, id=414, 722.7pt x 433.62pt
 >
 File: ../Insurance_Charges_Plots/BoxCox_rSq_Stepwise.png Graphic file (type png
 )
@@ -858,7 +858,7 @@ File: ../Insurance_Charges_Plots/BoxCox_rSq_Stepwise.png Graphic file (type png
 Package pdftex.def Info: ../Insurance_Charges_Plots/BoxCox_rSq_Stepwise.png  us
 ed on input line 911.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/BoxCox_AIC_BIC_Stepwise.png, id=411, 722.7pt x 433.
+<../Insurance_Charges_Plots/BoxCox_AIC_BIC_Stepwise.png, id=415, 722.7pt x 433.
 62pt>
 File: ../Insurance_Charges_Plots/BoxCox_AIC_BIC_Stepwise.png Graphic file (type
  png)
@@ -866,7 +866,7 @@ File: ../Insurance_Charges_Plots/BoxCox_AIC_BIC_Stepwise.png Graphic file (type
 Package pdftex.def Info: ../Insurance_Charges_Plots/BoxCox_AIC_BIC_Stepwise.png
   used on input line 916.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Order2Reg_In_Sample.png, id=412, 722.7pt x 433.62pt
+<../Insurance_Charges_Plots/Order2Reg_In_Sample.png, id=416, 722.7pt x 433.62pt
 >
 File: ../Insurance_Charges_Plots/Order2Reg_In_Sample.png Graphic file (type png
 )
@@ -874,7 +874,7 @@ File: ../Insurance_Charges_Plots/Order2Reg_In_Sample.png Graphic file (type png
 Package pdftex.def Info: ../Insurance_Charges_Plots/Order2Reg_In_Sample.png  us
 ed on input line 941.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Order2Reg_80_20.png, id=413, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/Order2Reg_80_20.png, id=417, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/Order2Reg_80_20.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/Order2Reg_80_20.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/Order2Reg_80_20.png  used o
@@ -885,7 +885,7 @@ _Plots/BoxCox_AIC_BIC_Backward.png> <../Insurance_Charges_Plots/BoxCox_rSq_Step
 wise.png> <../Insurance_Charges_Plots/BoxCox_AIC_BIC_Stepwise.png>] [24 <../Ins
 urance_Charges_Plots/Order2Reg_In_Sample.png> <../Insurance_Charges_Plots/Order
 2Reg_80_20.png>]
-<../Insurance_Charges_Plots/Order2Reg_rSq_Forward.png, id=432, 722.7pt x 433.62
+<../Insurance_Charges_Plots/Order2Reg_rSq_Forward.png, id=436, 722.7pt x 433.62
 pt>
 File: ../Insurance_Charges_Plots/Order2Reg_rSq_Forward.png Graphic file (type p
 ng)
@@ -893,7 +893,7 @@ ng)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Order2Reg_rSq_Forward.png  
 used on input line 1010.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Order2Reg_AIC_BIC_Forward.png, id=433, 722.7pt x 43
+<../Insurance_Charges_Plots/Order2Reg_AIC_BIC_Forward.png, id=437, 722.7pt x 43
 3.62pt>
 File: ../Insurance_Charges_Plots/Order2Reg_AIC_BIC_Forward.png Graphic file (ty
 pe png)
@@ -904,7 +904,7 @@ ng  used on input line 1015.
 
 [25 <../Insurance_Charges_Plots/Order2Reg_rSq_Forward.png> <../Insurance_Charge
 s_Plots/Order2Reg_AIC_BIC_Forward.png>]
-<../Insurance_Charges_Plots/Order2Reg_rSq_Backward.png, id=443, 722.7pt x 433.6
+<../Insurance_Charges_Plots/Order2Reg_rSq_Backward.png, id=447, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/Order2Reg_rSq_Backward.png Graphic file (type 
 png)
@@ -912,7 +912,7 @@ png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Order2Reg_rSq_Backward.png 
  used on input line 1029.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Order2Reg_AIC_BIC_Backward.png, id=444, 722.7pt x 4
+<../Insurance_Charges_Plots/Order2Reg_AIC_BIC_Backward.png, id=448, 722.7pt x 4
 33.62pt>
 File: ../Insurance_Charges_Plots/Order2Reg_AIC_BIC_Backward.png Graphic file (t
 ype png)
@@ -920,7 +920,7 @@ ype png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Order2Reg_AIC_BIC_Backward.
 png  used on input line 1034.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Order2Reg_rSq_Stepwise.png, id=445, 722.7pt x 433.6
+<../Insurance_Charges_Plots/Order2Reg_rSq_Stepwise.png, id=449, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/Order2Reg_rSq_Stepwise.png Graphic file (type 
 png)
@@ -928,7 +928,7 @@ png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Order2Reg_rSq_Stepwise.png 
  used on input line 1048.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/Order2Reg_AIC_BIC_Stepwise.png, id=446, 722.7pt x 4
+<../Insurance_Charges_Plots/Order2Reg_AIC_BIC_Stepwise.png, id=450, 722.7pt x 4
 33.62pt>
 File: ../Insurance_Charges_Plots/Order2Reg_AIC_BIC_Stepwise.png Graphic file (t
 ype png)
@@ -936,13 +936,13 @@ ype png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/Order2Reg_AIC_BIC_Stepwise.
 png  used on input line 1053.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_2L_In_Sample.png, id=447, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_2L_In_Sample.png, id=451, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/NN_2L_In_Sample.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/NN_2L_In_Sample.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_2L_In_Sample.png  used o
 n input line 1078.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_2L_80_20.png, id=448, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_2L_80_20.png, id=452, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/NN_2L_80_20.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/NN_2L_80_20.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_2L_80_20.png  used on in
@@ -953,13 +953,13 @@ ges_Plots/Order2Reg_AIC_BIC_Backward.png> <../Insurance_Charges_Plots/Order2Reg
 _rSq_Stepwise.png> <../Insurance_Charges_Plots/Order2Reg_AIC_BIC_Stepwise.png>]
  [27 <../Insurance_Charges_Plots/NN_2L_In_Sample.png> <../Insurance_Charges_Plo
 ts/NN_2L_80_20.png>]
-<../Insurance_Charges_Plots/NN_2L_rSq_Forward.png, id=467, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_2L_rSq_Forward.png, id=471, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/NN_2L_rSq_Forward.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/NN_2L_rSq_Forward.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_2L_rSq_Forward.png  used
  on input line 1147.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_2L_AIC_BIC_Forward.png, id=468, 722.7pt x 433.62
+<../Insurance_Charges_Plots/NN_2L_AIC_BIC_Forward.png, id=472, 722.7pt x 433.62
 pt>
 File: ../Insurance_Charges_Plots/NN_2L_AIC_BIC_Forward.png Graphic file (type p
 ng)
@@ -967,7 +967,7 @@ ng)
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_2L_AIC_BIC_Forward.png  
 used on input line 1152.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_2L_rSq_Backward.png, id=469, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_2L_rSq_Backward.png, id=473, 722.7pt x 433.62pt>
 
 File: ../Insurance_Charges_Plots/NN_2L_rSq_Backward.png Graphic file (type png)
 
@@ -975,7 +975,7 @@ File: ../Insurance_Charges_Plots/NN_2L_rSq_Backward.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_2L_rSq_Backward.png  use
 d on input line 1166.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_2L_AIC_BIC_Backward.png, id=470, 722.7pt x 433.6
+<../Insurance_Charges_Plots/NN_2L_AIC_BIC_Backward.png, id=474, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/NN_2L_AIC_BIC_Backward.png Graphic file (type 
 png)
@@ -985,7 +985,7 @@ Package pdftex.def Info: ../Insurance_Charges_Plots/NN_2L_AIC_BIC_Backward.png
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
  [28 <../Insurance_Charges_Plots/NN_2L_rSq_Forward.png> <../Insurance_Charges_P
 lots/NN_2L_AIC_BIC_Forward.png>]
-<../Insurance_Charges_Plots/NN_2L_rSq_Stepwise.png, id=479, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_2L_rSq_Stepwise.png, id=483, 722.7pt x 433.62pt>
 
 File: ../Insurance_Charges_Plots/NN_2L_rSq_Stepwise.png Graphic file (type png)
 
@@ -993,7 +993,7 @@ File: ../Insurance_Charges_Plots/NN_2L_rSq_Stepwise.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_2L_rSq_Stepwise.png  use
 d on input line 1185.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_2L_AIC_BIC_Stepwise.png, id=480, 722.7pt x 433.6
+<../Insurance_Charges_Plots/NN_2L_AIC_BIC_Stepwise.png, id=484, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/NN_2L_AIC_BIC_Stepwise.png Graphic file (type 
 png)
@@ -1001,13 +1001,13 @@ png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_2L_AIC_BIC_Stepwise.png 
  used on input line 1190.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_3L_In_Sample.png, id=481, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_3L_In_Sample.png, id=485, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/NN_3L_In_Sample.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/NN_3L_In_Sample.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_3L_In_Sample.png  used o
 n input line 1215.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_3L_80_20.png, id=482, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_3L_80_20.png, id=486, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/NN_3L_80_20.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/NN_3L_80_20.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_3L_80_20.png  used on in
@@ -1018,13 +1018,13 @@ Plots/NN_2L_AIC_BIC_Backward.png> <../Insurance_Charges_Plots/NN_2L_rSq_Stepwis
 e.png> <../Insurance_Charges_Plots/NN_2L_AIC_BIC_Stepwise.png>]
 [30 <../Insurance_Charges_Plots/NN_3L_In_Sample.png> <../Insurance_Charges_Plot
 s/NN_3L_80_20.png>]
-<../Insurance_Charges_Plots/NN_3L_rSq_Forward.png, id=501, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_3L_rSq_Forward.png, id=505, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/NN_3L_rSq_Forward.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/NN_3L_rSq_Forward.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_3L_rSq_Forward.png  used
  on input line 1284.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_3L_AIC_BIC_Forward.png, id=502, 722.7pt x 433.62
+<../Insurance_Charges_Plots/NN_3L_AIC_BIC_Forward.png, id=506, 722.7pt x 433.62
 pt>
 File: ../Insurance_Charges_Plots/NN_3L_AIC_BIC_Forward.png Graphic file (type p
 ng)
@@ -1032,7 +1032,7 @@ ng)
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_3L_AIC_BIC_Forward.png  
 used on input line 1289.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_3L_rSq_Backward.png, id=503, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_3L_rSq_Backward.png, id=507, 722.7pt x 433.62pt>
 
 File: ../Insurance_Charges_Plots/NN_3L_rSq_Backward.png Graphic file (type png)
 
@@ -1040,7 +1040,7 @@ File: ../Insurance_Charges_Plots/NN_3L_rSq_Backward.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_3L_rSq_Backward.png  use
 d on input line 1303.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_3L_AIC_BIC_Backward.png, id=504, 722.7pt x 433.6
+<../Insurance_Charges_Plots/NN_3L_AIC_BIC_Backward.png, id=508, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/NN_3L_AIC_BIC_Backward.png Graphic file (type 
 png)
@@ -1050,7 +1050,7 @@ Package pdftex.def Info: ../Insurance_Charges_Plots/NN_3L_AIC_BIC_Backward.png
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
  [31 <../Insurance_Charges_Plots/NN_3L_rSq_Forward.png> <../Insurance_Charges_P
 lots/NN_3L_AIC_BIC_Forward.png>]
-<../Insurance_Charges_Plots/NN_3L_rSq_Stepwise.png, id=514, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_3L_rSq_Stepwise.png, id=518, 722.7pt x 433.62pt>
 
 File: ../Insurance_Charges_Plots/NN_3L_rSq_Stepwise.png Graphic file (type png)
 
@@ -1058,7 +1058,7 @@ File: ../Insurance_Charges_Plots/NN_3L_rSq_Stepwise.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_3L_rSq_Stepwise.png  use
 d on input line 1322.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_3L_AIC_BIC_Stepwise.png, id=515, 722.7pt x 433.6
+<../Insurance_Charges_Plots/NN_3L_AIC_BIC_Stepwise.png, id=519, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/NN_3L_AIC_BIC_Stepwise.png Graphic file (type 
 png)
@@ -1066,13 +1066,13 @@ png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_3L_AIC_BIC_Stepwise.png 
  used on input line 1327.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_4L_In_Sample.png, id=516, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_4L_In_Sample.png, id=520, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/NN_4L_In_Sample.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/NN_4L_In_Sample.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_4L_In_Sample.png  used o
 n input line 1352.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_4L_80_20.png, id=517, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_4L_80_20.png, id=521, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/NN_4L_80_20.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/NN_4L_80_20.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_4L_80_20.png  used on in
@@ -1083,13 +1083,13 @@ Plots/NN_3L_AIC_BIC_Backward.png> <../Insurance_Charges_Plots/NN_3L_rSq_Stepwis
 e.png> <../Insurance_Charges_Plots/NN_3L_AIC_BIC_Stepwise.png>] [33 <../Insuran
 ce_Charges_Plots/NN_4L_In_Sample.png> <../Insurance_Charges_Plots/NN_4L_80_20.p
 ng>]
-<../Insurance_Charges_Plots/NN_4L_rSq_Forward.png, id=536, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_4L_rSq_Forward.png, id=540, 722.7pt x 433.62pt>
 File: ../Insurance_Charges_Plots/NN_4L_rSq_Forward.png Graphic file (type png)
 <use ../Insurance_Charges_Plots/NN_4L_rSq_Forward.png>
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_4L_rSq_Forward.png  used
  on input line 1421.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_4L_AIC_BIC_Forward.png, id=537, 722.7pt x 433.62
+<../Insurance_Charges_Plots/NN_4L_AIC_BIC_Forward.png, id=541, 722.7pt x 433.62
 pt>
 File: ../Insurance_Charges_Plots/NN_4L_AIC_BIC_Forward.png Graphic file (type p
 ng)
@@ -1097,7 +1097,7 @@ ng)
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_4L_AIC_BIC_Forward.png  
 used on input line 1426.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_4L_rSq_Backward.png, id=538, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_4L_rSq_Backward.png, id=542, 722.7pt x 433.62pt>
 
 File: ../Insurance_Charges_Plots/NN_4L_rSq_Backward.png Graphic file (type png)
 
@@ -1105,7 +1105,7 @@ File: ../Insurance_Charges_Plots/NN_4L_rSq_Backward.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_4L_rSq_Backward.png  use
 d on input line 1440.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_4L_AIC_BIC_Backward.png, id=539, 722.7pt x 433.6
+<../Insurance_Charges_Plots/NN_4L_AIC_BIC_Backward.png, id=543, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/NN_4L_AIC_BIC_Backward.png Graphic file (type 
 png)
@@ -1115,7 +1115,7 @@ Package pdftex.def Info: ../Insurance_Charges_Plots/NN_4L_AIC_BIC_Backward.png
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
  [34 <../Insurance_Charges_Plots/NN_4L_rSq_Forward.png> <../Insurance_Charges_P
 lots/NN_4L_AIC_BIC_Forward.png>]
-<../Insurance_Charges_Plots/NN_4L_rSq_Stepwise.png, id=548, 722.7pt x 433.62pt>
+<../Insurance_Charges_Plots/NN_4L_rSq_Stepwise.png, id=552, 722.7pt x 433.62pt>
 
 File: ../Insurance_Charges_Plots/NN_4L_rSq_Stepwise.png Graphic file (type png)
 
@@ -1123,7 +1123,7 @@ File: ../Insurance_Charges_Plots/NN_4L_rSq_Stepwise.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_4L_rSq_Stepwise.png  use
 d on input line 1459.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
-<../Insurance_Charges_Plots/NN_4L_AIC_BIC_Stepwise.png, id=549, 722.7pt x 433.6
+<../Insurance_Charges_Plots/NN_4L_AIC_BIC_Stepwise.png, id=553, 722.7pt x 433.6
 2pt>
 File: ../Insurance_Charges_Plots/NN_4L_AIC_BIC_Stepwise.png Graphic file (type 
 png)
@@ -1131,66 +1131,87 @@ png)
 Package pdftex.def Info: ../Insurance_Charges_Plots/NN_4L_AIC_BIC_Stepwise.png 
  used on input line 1464.
 (pdftex.def)             Requested size: 273.12392pt x 163.87085pt.
+<../Insurance_Charges/corrmatrix.png, id=554, 538.4115pt x 458.1918pt>
+File: ../Insurance_Charges/corrmatrix.png Graphic file (type png)
+<use ../Insurance_Charges/corrmatrix.png>
+Package pdftex.def Info: ../Insurance_Charges/corrmatrix.png  used on input lin
+e 1475.
+(pdftex.def)             Requested size: 278.69475pt x 237.17044pt.
  [35 <../Insurance_Charges_Plots/NN_4L_rSq_Backward.png> <../Insurance_Charges_
 Plots/NN_4L_AIC_BIC_Backward.png> <../Insurance_Charges_Plots/NN_4L_rSq_Stepwis
 e.png> <../Insurance_Charges_Plots/NN_4L_AIC_BIC_Stepwise.png>]
-<../Insurance_Annual_Premium/histograms.png, id=563, 859.65166pt x 569.84895pt>
+<../Insurance_Charges/rfregressionoos.png, id=565, 574.5465pt x 354.123pt>
+File: ../Insurance_Charges/rfregressionoos.png Graphic file (type png)
+<use ../Insurance_Charges/rfregressionoos.png>
+Package pdftex.def Info: ../Insurance_Charges/rfregressionoos.png  used on inpu
+t line 1482.
+(pdftex.def)             Requested size: 278.69475pt x 171.77646pt.
+<../Insurance_Charges/featureimportance.png, id=566, 714.7503pt x 426.393pt>
+File: ../Insurance_Charges/featureimportance.png Graphic file (type png)
+<use ../Insurance_Charges/featureimportance.png>
+Package pdftex.def Info: ../Insurance_Charges/featureimportance.png  used on in
+put line 1507.
+(pdftex.def)             Requested size: 278.69475pt x 166.26006pt.
+
+[36 <../Insurance_Charges/corrmatrix.png> <../Insurance_Charges/rfregressionoos
+.png>] [37 <../Insurance_Charges/featureimportance.png>]
+<../Insurance_Annual_Premium/histograms.png, id=587, 859.65166pt x 569.84895pt>
 
 File: ../Insurance_Annual_Premium/histograms.png Graphic file (type png)
 <use ../Insurance_Annual_Premium/histograms.png>
 Package pdftex.def Info: ../Insurance_Annual_Premium/histograms.png  used on in
-put line 1575.
+put line 1616.
 (pdftex.def)             Requested size: 418.04213pt x 277.1155pt.
-
-[36]
-<../Insurance_Annual_Premium/boxplots.png, id=571, 1293.27165pt x 859.2903pt>
+ [38]
+<../Insurance_Annual_Premium/boxplots.png, id=595, 1293.27165pt x 859.2903pt>
 File: ../Insurance_Annual_Premium/boxplots.png Graphic file (type png)
 <use ../Insurance_Annual_Premium/boxplots.png>
 Package pdftex.def Info: ../Insurance_Annual_Premium/boxplots.png  used on inpu
-t line 1583.
+t line 1624.
 (pdftex.def)             Requested size: 418.04213pt x 277.7582pt.
-<../Insurance_Annual_Premium/scatterplots.png, id=574, 1148.91232pt x 569.30693
+<../Insurance_Annual_Premium/scatterplots.png, id=598, 1148.91232pt x 569.30693
 pt>
 File: ../Insurance_Annual_Premium/scatterplots.png Graphic file (type png)
 <use ../Insurance_Annual_Premium/scatterplots.png>
 Package pdftex.def Info: ../Insurance_Annual_Premium/scatterplots.png  used on 
-input line 1595.
+input line 1636.
 (pdftex.def)             Requested size: 418.04213pt x 207.13943pt.
- [37 <../Insurance_Annual_Premium/histograms.png> <../Insurance_Annual_Premium/
+ [39 <../Insurance_Annual_Premium/histograms.png> <../Insurance_Annual_Premium/
 boxplots.png>]
-<../Insurance_Annual_Premium/correlation_heatmap.png, id=585, 678.1335pt x 570.
+<../Insurance_Annual_Premium/correlation_heatmap.png, id=607, 678.1335pt x 570.
 6921pt>
 File: ../Insurance_Annual_Premium/correlation_heatmap.png Graphic file (type pn
 g)
 <use ../Insurance_Annual_Premium/correlation_heatmap.png>
 Package pdftex.def Info: ../Insurance_Annual_Premium/correlation_heatmap.png  u
-sed on input line 1603.
+sed on input line 1644.
 (pdftex.def)             Requested size: 278.69475pt x 234.53387pt.
-<../Insurance_Annual_Premium/Hue_Plots.png, id=587, 1202.39212pt x 1437.4503pt>
+<../Insurance_Annual_Premium/Hue_Plots.png, id=609, 1202.39212pt x 1437.4503pt>
 
 File: ../Insurance_Annual_Premium/Hue_Plots.png Graphic file (type png)
 <use ../Insurance_Annual_Premium/Hue_Plots.png>
 Package pdftex.def Info: ../Insurance_Annual_Premium/Hue_Plots.png  used on inp
-ut line 1615.
+ut line 1656.
 (pdftex.def)             Requested size: 501.64716pt x 599.71115pt.
- [38 <../Insurance_Annual_Premium/scatterplots.png> <../Insurance_Annual_Premiu
-m/correlation_heatmap.png>] [39 <../Insurance_Annual_Premium/Hue_Plots.png>] [4
-0] (./Report.aux)
+
+[40 <../Insurance_Annual_Premium/scatterplots.png> <../Insurance_Annual_Premium
+/correlation_heatmap.png>] [41 <../Insurance_Annual_Premium/Hue_Plots.png>]
+[42] (./Report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 066B3DC50D9C08C9A5701A08E3BE7F80;6088.
+(rerunfilecheck)             Checksum: 17B657F1985589F1C6051DA74357EF2E;6215.
  ) 
 Here is how much of TeX's memory you used:
- 13770 strings out of 474116
- 262612 string characters out of 5743682
- 1980187 words of memory out of 5000000
- 35854 multiletter control sequences out of 15000+600000
+ 13804 strings out of 474116
+ 263969 string characters out of 5743682
+ 1990187 words of memory out of 5000000
+ 35882 multiletter control sequences out of 15000+600000
  563955 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1413b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,1413b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -1200,10 +1221,10 @@ sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
 l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Report.pdf (40 pages, 12749638 bytes).
+Output written on Report.pdf (42 pages, 12894442 bytes).
 PDF statistics:
- 682 PDF objects out of 1000 (max. 8388607)
- 437 compressed objects within 5 object streams
- 153 named destinations out of 1000 (max. 500000)
- 763 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 704 PDF objects out of 1000 (max. 8388607)
+ 451 compressed objects within 5 object streams
+ 159 named destinations out of 1000 (max. 500000)
+ 786 words of extra memory for PDF output out of 10000 (max. 10000000)
 
