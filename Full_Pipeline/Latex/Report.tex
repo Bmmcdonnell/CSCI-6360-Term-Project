@@ -1,3 +1,5 @@
+% !TEX option = --shell-escape
+
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage[left=1cm, right=1cm, top=2cm, bottom=2cm]{geometry}
@@ -5,6 +7,9 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{amsmath}
+\usepackage{minted}
+\usepackage{pdflscape}
+\usemintedstyle{vs}
 \usepackage{booktabs} 
 \usepackage{float}
 \usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue, citecolor=blue]{hyperref}
@@ -1658,9 +1663,127 @@ Univariate distributions are visualized in \Cref{fig:Insurance Annual Premium Hi
     \label{fig:Insurance Annual Premium Hue Plots}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \subsection{Random Forest}
 
+The Random Forest model was trained and evaluated on both in-sample and out-of-sample data. Hyperparameter tuning was performed using cross-validation on the training set to determine the optimal parameters. The tuning process considered the following parameters:
 
+\begin{minted}{python}
+params = {
+    'n_estimators': [200, 300, 400, 500, 700],
+    'max_depth': [10, 20, 30, None],
+    'min_samples_split': [2, 5, 10],
+    'min_samples_leaf': [1, 2, 4],
+    'max_features': ['sqrt', 'log2', 0.5],
+    'bootstrap': [True, False]
+}
+\end{minted}
+
+\subsubsection{In-Sample Quality of Fit Metrics}
+
+\begin{table}[H]
+\centering
+\caption{In-sample performance metrics of the Random Forest model.}
+\begin{tabular}{lc}
+\hline
+Metric & Value \\
+\hline
+$R^2$ & 0.9549 \\
+SST & 9.78$\times 10^{11}$ \\
+SSE & 4.41$\times 10^{10}$ \\
+MSE & 441081.88 \\
+RMSE & 664.14 \\
+MAE & 374.50 \\
+$m$ & 100000 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figure/rf21.jpg}
+\caption{In-sample performance of the Random Forest model on Dataset 2.}
+\label{fig:RF1}
+\end{figure}
+\clearpage
+
+\section{Out-of-Sample Quality of Fit Metrics}
+\begin{table}[H]
+\centering
+\caption{Out-of-sample performance metrics of the Random Forest model.}
+\begin{tabular}{lc}
+\hline
+Metric & Value \\
+\hline
+$R^2$ & 0.6510 \\
+SST & 1.97$\times 10^{11}$ \\
+SSE & 6.87$\times 10^{10}$ \\
+MSE & 3434098.68 \\
+RMSE & 1853.13 \\
+MAE & 1025.39 \\
+$m$ & 20000 \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figure/rf22.jpg}
+\caption{Out-of-sample performance of the Random Forest model on Dataset 2.}
+\label{fig:RF2}
+\end{figure}
+\newpage
+
+\subsubsection{Fine-Tuned Quality of Fit Metrics}
+A total of 20 hyperparameter configurations were randomly sampled, and each was evaluated using 5-fold cross-validation. The following parameter settings were identified as optimal:
+\begin{minted}{python}
+Best params: {'n_estimators': 300, 
+'min_samples_split': 5, 'min_samples_leaf': 4,
+'max_features': 0.5, 'max_depth': None, 
+'bootstrap': False}
+\end{minted}
+
+\begin{table}[H]
+\centering
+\caption{Fine-tuned performance metrics of the Random Forest model.}
+\begin{tabular}{lc}
+\hline
+Metric & Value \\
+\hline
+$R^2$ & 0.6542 \\
+SST & 1.97$\times 10^{11}$ \\
+SSE & 6.80$\times 10^{10}$ \\
+MSE & 3402240.89 \\
+RMSE & 1844.52 \\
+MAE & 999.62 \\
+$m$ & 20000 \\
+\hline
+\end{tabular}
+\end{table}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figure/rf23.jpg}
+\caption{Fine-tuned performance of the Random Forest model on Dataset 2.}
+\label{fig:RF3}
+\end{figure}
+\newpage
+
+\subsubsection{Feature Importance from the Best-Performing Model}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figure/rf24.jpg}
+\caption{Top 15 Most Important Features.}
+\label{fig:RF4}
+\end{figure}
 
 \subsection{Other Modeling Techniques}
 
