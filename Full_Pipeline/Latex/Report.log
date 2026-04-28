@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.10)  27 APR 2026 16:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.10)  27 APR 2026 21:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1292,147 +1292,154 @@ File: ../Insurance_Charges/rfregressionoos.png Graphic file (type png)
 Package pdftex.def Info: ../Insurance_Charges/rfregressionoos.png  used on inpu
 t line 1487.
 (pdftex.def)             Requested size: 278.69475pt x 171.77646pt.
-<../Insurance_Charges/featureimportance.png, id=591, 714.7503pt x 426.393pt>
+
+[36 <../Insurance_Charges/corrmatrix.png> <../Insurance_Charges/rfregressionoos
+.png>]
+<../Insurance_Charges/featureimportance.png, id=600, 714.7503pt x 426.393pt>
 File: ../Insurance_Charges/featureimportance.png Graphic file (type png)
 <use ../Insurance_Charges/featureimportance.png>
 Package pdftex.def Info: ../Insurance_Charges/featureimportance.png  used on in
-put line 1512.
+put line 1566.
 (pdftex.def)             Requested size: 278.69475pt x 166.26006pt.
-
-[36 <../Insurance_Charges/corrmatrix.png> <../Insurance_Charges/rfregressionoos
-.png>] [37 <../Insurance_Charges/featureimportance.png>]
-<../Insurance_Annual_Medical_Cost/histograms.png, id=611, 859.65166pt x 569.306
+ [37 <../Insurance_Charges/featureimportance.png>] [38]
+<../Insurance_Annual_Medical_Cost/histograms.png, id=620, 859.65166pt x 569.306
 93pt>
 File: ../Insurance_Annual_Medical_Cost/histograms.png Graphic file (type png)
 <use ../Insurance_Annual_Medical_Cost/histograms.png>
 Package pdftex.def Info: ../Insurance_Annual_Medical_Cost/histograms.png  used 
-on input line 1621.
+on input line 1677.
 (pdftex.def)             Requested size: 418.04213pt x 276.85191pt.
- [38]
-<../Insurance_Annual_Medical_Cost/boxplots.png, id=619, 1293.45233pt x 859.2903
+<../Insurance_Annual_Medical_Cost/boxplots.png, id=621, 1293.45233pt x 859.2903
 pt>
 File: ../Insurance_Annual_Medical_Cost/boxplots.png Graphic file (type png)
 <use ../Insurance_Annual_Medical_Cost/boxplots.png>
 Package pdftex.def Info: ../Insurance_Annual_Medical_Cost/boxplots.png  used on
- input line 1629.
+ input line 1685.
 (pdftex.def)             Requested size: 418.04213pt x 277.71886pt.
-<../Insurance_Annual_Medical_Cost/scatterplots.png, id=622, 1148.91232pt x 569.
+ [39 <../Insurance_Annual_Medical_Cost/histograms.png>]
+<../Insurance_Annual_Medical_Cost/scatterplots.png, id=631, 1148.91232pt x 569.
 4876pt>
 File: ../Insurance_Annual_Medical_Cost/scatterplots.png Graphic file (type png)
 
 <use ../Insurance_Annual_Medical_Cost/scatterplots.png>
 Package pdftex.def Info: ../Insurance_Annual_Medical_Cost/scatterplots.png  use
-d on input line 1641.
+d on input line 1697.
 (pdftex.def)             Requested size: 418.04213pt x 207.20517pt.
- [39 <../Insurance_Annual_Medical_Cost/histograms.png> <../Insurance_Annual_Med
-ical_Cost/boxplots.png>]
-<../Insurance_Annual_Medical_Cost/correlation_heatmap.png, id=631, 680.0607pt x
+<../Insurance_Annual_Medical_Cost/correlation_heatmap.png, id=632, 680.0607pt x
  570.4512pt>
 File: ../Insurance_Annual_Medical_Cost/correlation_heatmap.png Graphic file (ty
 pe png)
 <use ../Insurance_Annual_Medical_Cost/correlation_heatmap.png>
 Package pdftex.def Info: ../Insurance_Annual_Medical_Cost/correlation_heatmap.p
-ng  used on input line 1649.
+ng  used on input line 1705.
 (pdftex.def)             Requested size: 278.69475pt x 233.78204pt.
-<../Insurance_Annual_Medical_Cost/Hue_Plots.png, id=633, 1191.7323pt x 1437.450
+ [40 <../Insurance_Annual_Medical_Cost/boxplots.png> <../Insurance_Annual_Medic
+al_Cost/scatterplots.png>]
+<../Insurance_Annual_Medical_Cost/Hue_Plots.png, id=642, 1191.7323pt x 1437.450
 3pt>
 File: ../Insurance_Annual_Medical_Cost/Hue_Plots.png Graphic file (type png)
 <use ../Insurance_Annual_Medical_Cost/Hue_Plots.png>
 Package pdftex.def Info: ../Insurance_Annual_Medical_Cost/Hue_Plots.png  used o
-n input line 1661.
+n input line 1717.
 (pdftex.def)             Requested size: 501.64716pt x 605.08492pt.
- [40 <../Insurance_Annual_Medical_Cost/scatterplots.png> <../Insurance_Annual_M
-edical_Cost/correlation_heatmap.png>]
-<../Insurance_Annual_Medical_Cost_Plots/Order2Reg_80_20.png, id=641, 722.7pt x 
+ [41 <../Insurance_Annual_Medical_Cost/correlation_heatmap.png>]
+<../Insurance_Annual_Medical_Cost_Plots/Order2Reg_80_20.png, id=649, 722.7pt x 
 433.62pt>
 File: ../Insurance_Annual_Medical_Cost_Plots/Order2Reg_80_20.png Graphic file (
 type png)
 <use ../Insurance_Annual_Medical_Cost_Plots/Order2Reg_80_20.png>
 Package pdftex.def Info: ../Insurance_Annual_Medical_Cost_Plots/Order2Reg_80_20
-.png  used on input line 1679.
+.png  used on input line 1735.
 (pdftex.def)             Requested size: 278.69475pt x 167.2188pt.
- [41 <../Insurance_Annual_Medical_Cost/Hue_Plots.png>]
-<../Insurance_Annual_Medical_Cost_Plots/NN_4L_80_20.png, id=647, 722.7pt x 433.
+ [42 <../Insurance_Annual_Medical_Cost/Hue_Plots.png>]
+<../Insurance_Annual_Medical_Cost_Plots/NN_4L_80_20.png, id=655, 722.7pt x 433.
 62pt>
 File: ../Insurance_Annual_Medical_Cost_Plots/NN_4L_80_20.png Graphic file (type
  png)
 <use ../Insurance_Annual_Medical_Cost_Plots/NN_4L_80_20.png>
 Package pdftex.def Info: ../Insurance_Annual_Medical_Cost_Plots/NN_4L_80_20.png
-  used on input line 1723.
+  used on input line 1779.
 (pdftex.def)             Requested size: 278.69475pt x 167.2188pt.
- [42 <../Insurance_Annual_Medical_Cost_Plots/Order2Reg_80_20.png>]
+ [43 <../Insurance_Annual_Medical_Cost_Plots/Order2Reg_80_20.png>]
 \openout3 = `Report.pyg'.
 
  (./_minted-Report/vs.pygstyle)
 (./_minted-Report/2CBE5697C35757A1E895D2E30AAC4790DD055D5B4DEA480624863496BE9EF
-04B.pygtex) [43 <../Insurance_Annual_Medical_Cost_Plots/NN_4L_80_20.png>]
-<figure/rf21.jpg, id=663, 570.933pt x 354.123pt>
+04B.pygtex) [44 <../Insurance_Annual_Medical_Cost_Plots/NN_4L_80_20.png>]
+<figure/rf21.jpg, id=671, 570.933pt x 354.123pt>
 File: figure/rf21.jpg Graphic file (type jpg)
 <use figure/rf21.jpg>
-Package pdftex.def Info: figure/rf21.jpg  used on input line 1796.
+Package pdftex.def Info: figure/rf21.jpg  used on input line 1852.
 (pdftex.def)             Requested size: 501.64716pt x 311.15909pt.
 
-[44 <./figure/rf21.jpg>]
-<figure/rf22.jpg, id=672, 574.5465pt x 354.123pt>
+[45 <./figure/rf21.jpg>]
+<figure/rf22.jpg, id=680, 574.5465pt x 354.123pt>
 File: figure/rf22.jpg Graphic file (type jpg)
 <use figure/rf22.jpg>
-Package pdftex.def Info: figure/rf22.jpg  used on input line 1823.
+Package pdftex.def Info: figure/rf22.jpg  used on input line 1879.
 (pdftex.def)             Requested size: 501.64716pt x 309.19762pt.
- [45
+ [46
 
  <./figure/rf22.jpg>]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 1829.
-
 \openout3 = `Report.pyg'.
 
 
 (./_minted-Report/A312AD9419793087F040FF2F1F35CE5EDD055D5B4DEA480624863496BE9EF
 04B.pygtex)
-<figure/rf23.jpg, id=680, 570.933pt x 354.123pt>
+<figure/rf23.jpg, id=688, 570.933pt x 354.123pt>
 File: figure/rf23.jpg Graphic file (type jpg)
 <use figure/rf23.jpg>
-Package pdftex.def Info: figure/rf23.jpg  used on input line 1859.
+Package pdftex.def Info: figure/rf23.jpg  used on input line 1915.
 (pdftex.def)             Requested size: 501.64716pt x 311.15909pt.
- [46 <./figure/rf23.jpg>]
-<figure/rf24.jpg, id=688, 714.7503pt x 426.393pt>
+ [47 <./figure/rf23.jpg>]
+<figure/rf24.jpg, id=696, 714.7503pt x 426.393pt>
 File: figure/rf24.jpg Graphic file (type jpg)
 <use figure/rf24.jpg>
-Package pdftex.def Info: figure/rf24.jpg  used on input line 1869.
+Package pdftex.def Info: figure/rf24.jpg  used on input line 1925.
 (pdftex.def)             Requested size: 501.64716pt x 299.27333pt.
- [47 <./figure/rf24.jpg>] (./Report.aux)
+ [48 <./figure/rf24.jpg>] (./Report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-Package rerunfilecheck Info: File `Report.out' has not changed.
-(rerunfilecheck)             Checksum: 52DF3054696F73A9918D69A3F9612959;7638.
+
+
+Package rerunfilecheck Warning: File `Report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Report.out':
+(rerunfilecheck)             Before: F334F3E0C172304A72EE715746B41347;7822
+(rerunfilecheck)             After:  A4B555860F7881A6CACA33D82F3F5658;7712.
 runsystem(rm Report.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 17428 strings out of 474116
- 342427 string characters out of 5743682
- 1990187 words of memory out of 5000000
- 39405 multiletter control sequences out of 15000+600000
+ 17442 strings out of 474116
+ 343047 string characters out of 5743682
+ 2000187 words of memory out of 5000000
+ 39413 multiletter control sequences out of 15000+600000
  563955 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,10n,79p,1413b,476s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
-ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
-l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
-texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Report.pdf (47 pages, 14697023 bytes).
+ 77i,10n,79p,1413b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsection.4.5} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Report.pdf (48 pages, 14698543 bytes).
 PDF statistics:
- 783 PDF objects out of 1000 (max. 8388607)
- 510 compressed objects within 6 object streams
- 181 named destinations out of 1000 (max. 500000)
+ 793 PDF objects out of 1000 (max. 8388607)
+ 519 compressed objects within 6 object streams
+ 187 named destinations out of 1000 (max. 500000)
  864 words of extra memory for PDF output out of 10000 (max. 10000000)
 

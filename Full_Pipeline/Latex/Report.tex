@@ -25,11 +25,11 @@
 
 \section{Introduction}
 
-In this project, we will explore two different datasets using multiple linear regression, ridge regression, lasso regression, transformed regression (specifically Sqrt, Log1p, and Box-Cox), second-order polynomial regression including interaction terms, and neural networks (two, three, and four layers). The two datasets we will be using are:
+In this project, we will explore two different datasets using multiple linear regression, ridge regression, lasso regression, transformed regression (specifically Sqrt, Log1p, and Box-Cox), second-order polynomial regression including interaction terms, neural networks (two, three, and four layers), and random forests. The two datasets we will be using are:
 
 \begin{itemize}
-	\item \textbf{Insurance Charges:} This dataset contains information about different primary beneficiaries of health insurance. The goal is to predict the primary beneficiaries insurance charges given their other characteristics. The dataset can be found at \url{https://www.kaggle.com/datasets/mirichoi0218/insurance}.
-	\item \textbf{Insurance Annual Medical Cost:} This dataset contains information about different primary beneficiaries of health insurance. The goal is to predict the primary beneficiaries annual medical cost given their other characteristics. The dataset can be found at \url{https://www.kaggle.com/datasets/mohankrishnathalla/medical-insurance-cost-prediction}.
+	\item \textbf{Insurance Charges (Data Set 1):} This dataset contains information about different primary beneficiaries of health insurance. The goal is to predict the primary beneficiaries insurance charges given their other characteristics. The dataset can be found at \url{https://www.kaggle.com/datasets/mirichoi0218/insurance}.
+	\item \textbf{Insurance Annual Medical Cost (Data Set 2):} This dataset contains information about different primary beneficiaries of health insurance. The goal is to predict the primary beneficiaries annual medical cost given their other characteristics. The dataset can be found at\\ \url{https://www.kaggle.com/datasets/mohankrishnathalla/medical-insurance-cost-prediction}.
 \end{itemize}
 
 \section{Hyperparameter Tuning}
@@ -44,7 +44,7 @@ For the second-order polynomial regression model, we used ridge regression to pr
 
 We optimized the neural network's activation functions, hidden layer sizes, and learning rate using a sequential grid search, maximizing the mean $R^2$ via 5-fold cross-validation. First, activation functions were tuned layer-by-layer, from the initial hidden layer through to the output. We then determined the hidden layer sizes; for two-layer architectures, we constrained the second layer to be less than or equal to the first. Finally, the learning rate was tuned.
 
-\section{Insurance Charges}\label{Insurance Charges}
+\section{Insurance Charges (Data Set 1)}\label{Insurance Charges}
 
 \subsection{Exploratory Data Analysis}
 
@@ -1489,9 +1489,39 @@ bic & 5 & 4523 & 4662 & 4570 & 51.24 \\ \hline
      \label{fig:Insurance Charges Random Forrest Out-of-Sample Plot}
 \end{figure}
 
-Random Forest Regression metrics: MAE: 2956.7923371477714 RMSE: 5056.020242853598 R2: 0.8225083593592852
+Random Forest Regression metrics: 
 
-Ytest values: {rSq: 0.8225083593592852,  sst: 154251421569.71732,  sse: 27378337885.571674,  mse: 25563340.696145356,  rmse: 5056.020242853598,  mae: 2956.7923371477714,  m: 1071}
+\begin{table}[H]
+\centering
+\caption{Insurance Charges Random Forest Regression metrics}
+\label{tab:Insurance Charges Random Forest Regression metrics}
+%\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|}\hline
+Metric & Random Forest  \\ \hline \hline
+rSq & 0.8225083593592852 \\ \hline
+rmse & 5056.020242853598 \\ \hline
+mae & 2956.7923371477714 \\ \hline
+\end{tabular}
+%}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Insurance Charges Random Forest Regression Ytest values}
+\label{tab:Insurance Charges Random Forest Regression Ytest values}
+%\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|}\hline
+Metric & Random Forest \\ \hline \hline
+rSq & 0.8225083593592852  \\ \hline
+sst & 154251421569.71732 \\ \hline
+sse & 27378337885.571674 \\ \hline
+mse0 & 25563340.696145356  \\ \hline
+rmse & 5056.020242853598 \\ \hline
+mae & 2956.7923371477714 \\ \hline
+m & 1071 \\ \hline
+\end{tabular}
+%}
+\end{table}
 
 Hyper Parameter tuning info:
 
@@ -1499,13 +1529,37 @@ Best params:
 
 {n estimators: 700, min samples split: 2, min samples leaf: 1, max features: 0.5, max depth: 10, bootstrap: False}
 
+\begin{table}[H]
+\centering
+\caption{Insurance Charges Random Forest Regression Tuned Hyper Parameters}
+\label{tab:Insurance Charges Random Forest Regression Tuned Hyper Parameters}
+%\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|}\hline
+n estimators & 700  \\ \hline \hline
+min samples split & 2 \\ \hline
+min samples leaf & 1 \\ \hline
+max features & 0.5 \\ \hline
+max depth & 10 \\ \hline
+bootstrap & False \\ \hline
+\end{tabular}
+%}
+\end{table}
+
 Tuned metrics:
 
-Tuned RF MAE: 3087.9428686341853
-
-Tuned RF RMSE: 5141.698517661322
-
-Tuned RF R2: 0.8164419175052696
+\begin{table}[H]
+\centering
+\caption{Insurance Charges Random Forest Regression Tuned metrics}
+\label{tab:Insurance Charges Random Forest Regression Tuned metrics}
+%\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|}\hline
+Metric & Random Forest  \\ \hline \hline
+rSq & 0.8164419175052696 \\ \hline
+rmse & 5141.698517661322 \\ \hline
+mae & 3087.9428686341853 \\ \hline
+\end{tabular}
+%}
+\end{table}
 
 \begin{figure}[H]
      \centering
@@ -1594,7 +1648,7 @@ bic & 4713 & 4707 & 4707 & 4710 & 4887 & 4710 & 4877 & 4686 & 4570 & 4570 \\ \hl
 }
 \end{table}
 
-\section{Insurance Annual Medical Cost}
+\section{Insurance Annual Medical Cost (Data Set 2)}
 
 \subsection{Exploratory Data Analysis}
 
@@ -1606,6 +1660,8 @@ The Insurance Annual Medical Cost dataset contains $100,000$ observations each h
 	\item dependents: The number of dependents covered by health insurance
 	\item smoker: If the primary beneficiary smokes.
 	\item region: The beneficiary's residential area in the US.
+	\item claims\_count: Number of claims submitted to insurance.
+	\item avg\_claim\_amount: Average amount of the submitted claims.
 	\item annual\_medical\_cost: (The target variable) Individual medical costs billed by health insurance.
 \end{itemize}
 
@@ -1799,7 +1855,7 @@ $m$ & 100000 \\
 \end{figure}
 \clearpage
 
-\section{Out-of-Sample Quality of Fit Metrics}
+\subsubsection{Out-of-Sample Quality of Fit Metrics}
 \begin{table}[H]
 \centering
 \caption{Out-of-sample performance metrics of the Random Forest model.}
@@ -1871,8 +1927,10 @@ $m$ & 20000 \\
 \label{fig:RF4}
 \end{figure}
 
-\subsection{Other Modeling Techniques}
+\section{Summary}
 
-Alternative approaches (including Ridge and Lasso regression, second-order polynomials, square root transformations, and neural networks) were evaluated but yielded poor predictive performance (CV $R^2 < 0.1$). This underperformance likely stems from the weak correlation between the predictors and the target variable, Annual Medical Cost. Furthermore, the target distribution is heavily skewed, with most values concentrated below $\$2,000$. Unlike the other regression models tested, Random Forest effectively managed this skewed distribution to provide more reliable results.
+When modeling the medical insurance costs, our first data set indicates that the beneficiaries smoker status and bmi (and their interaction) are extremely informative variables. Meanwhile, our second data set indicates that these features are not informative, and rather the most informative variables are average claim amount and claims count. This is most likely due to how each insurance company decides premiums. Some may choose to vary the premium greatly based on factors such as smoker status and bmi, while others may give everyone a similar base rate that is only affected by claims.
+
+For modeling, Order 2 Polynomials will provide a strong interpretable model, while Neural Networks provide the best results but lose the interpretability, and Random Forests offers a middle ground.
 
 \end{document}
